@@ -1,9 +1,10 @@
 body {
-  background-image: linear-gradient(black, lightblue);
+  background-color: lightblue;
 }
 .heading {
-  font-family:sans-serif;
-  font-style: italic;
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+  font-style: normal;
   text-align: center;
   color: white;
   text-shadow:
@@ -13,12 +14,27 @@ body {
   2px 2px 0 #000;
 }
 h1 {
-  font-family:sans-serif;
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+  font-style: normal;
+}
+h2 {
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+  font-style: normal;
 }
 h3 {
-  font-size: 40px;
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+  font-style: normal;
 }
-#canvas {
-  display: block;
-  margin: auto;
-  background-color:}
+.button {
+  background-color: lightgreen;
+  border: 5px black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
