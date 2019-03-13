@@ -1,5 +1,11 @@
-body {
+.body1 {
   background-color: lightblue;
+}
+.bodygreen {
+  background-color: #00FF00;
+}
+.bodyred {
+  background-color: red;
 }
 .heading {
   font-family: '8BITWONDERNominal';
@@ -16,7 +22,8 @@ body {
 h1 {
   font-family: '8BITWONDERNominal';
   font-weight: normal;
-  font-style: normal;
+  color: green
+  font-size: 50px;
 }
 h2 {
   font-family: '8BITWONDERNominal';
@@ -34,18 +41,29 @@ h4 {
   font-style: normal;
 }
 .button {
-  background-color: lightgreen;
-  border: 5px black;
+  background-color: orange;
+  border: 5px solid black;
   color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 32px;
   font-family: '8BITWONDERNominal';
   font-weight: normal;
   font-style: normal;
+  border-radius: 8px;
+}
+.button:hover {
+  background-color: black;
+  color: orange;
+}
+.button:active {
+  background-color: black;
+  color: orange;
 }
 div {
     background-color: white;
+    font-size: 25px;
+    font-family: '8BITWONDERNominal';
 }​
