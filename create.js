@@ -44,17 +44,38 @@ function sustainable() {
 function culinary() {
   location.href='culinary.html'
 }
-function lawandjustice() {
-  location.href='lawandjustice.html'
-}
-function mugging() {
-  location.href='mugging.html'
-}
-function mugging1() {
-  let text = 'You swing to the scene of the crime and find Mr. Blokus being mugged by a man in a mask. You battle it out with the masked man until he surrenders and reveals himself to be MR. LOBRACE!'
+function culinary1() {
+  let text = 'There are several dishes you can cook. Which one would you like to make?'
   let content = document.getElementById('contentdiv')
   let brStr = brs(5);
   content.innerHTML = (brStr + text + brStr);
+}
+function pizza() {
+  location.href='pizza.html'
+}
+function fish() {
+  location.href='fish.html'
+}
+function casserole() {
+  location.href='casserole.html'
+}
+function lawandjustice() {
+  location.href='lawandjustice.html'
+}
+function lawandjustice1() {
+  let text = 'You are taken into the questioning by the teacher and eventually charged for conspiracy to distribute illegal brownies for your relay team. Will you accept your mistake and go to jail, or fight it in court?'
+  let content = document.getElementById('contentdiv')
+  let brStr = brs(5);
+  content.innerHTML = (brStr + text + brStr);
+}
+function jail() {
+  location.href='jail.html'
+}
+function court() {
+  location.href='court.html'
+}
+function mugging() {
+  location.href='mugging.html'
 }
 //UCTECH END//
 //AAHS BEGIN//
