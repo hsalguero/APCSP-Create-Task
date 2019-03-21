@@ -9,24 +9,97 @@ function brs(num) {
 function returnTitle() {
   location.href='./index.html'
 }
+function party() {
+  location.href='party.html'
+}
+function yacht() {
+  location.href='yacht.html'
+}
 //UNIVERSAL END//
 //AIT BEGIN//
 function ait() {
+  location.href='ait.html'
+}
+function ait1() {
+  text = "Ms. G is waiting at the front door, and asks you about your ID. Did you bring it?"
   let content = document.getElementById('contentdiv')
-
+  let brStr = brs(5);
+  content.innerHTML = (brStr + text + brStr);
+}
+function donthaveID() {
+  location.href='lop.html'
+}
+function haveID() {
+  location.href='classselect.html'
+}
+function science() {
+  location.href='science.html'
+}
+function math() {
+  location.href='math.html'
+}
+function math1() {
+  text = "It is now your math period. You go to class and sit down next to some of your old friends. You realize this class is very boring and you fall asleep. When you wake up it is 2:50 pm and school is over, what will you do?"
+  let content = document.getElementById('contentdiv')
+  let brStr = brs(5);
+  content.innerHTML = (brStr + text + brStr);
+}
+function english() {
+  location.href='english.html'
 }
 //AIT END//
 //APA BEGIN//
 function apa() {
-  let content = document.getElementById('contentdiv')
-
+  location.href='apa.html'
+}
+function dance() {
+  location.href='dance.html'
+}
+function hello() {
+  location.href='hello.html'
+}
+function walkAway() {
+  location.href='walkaway.html'
+}
+function clas() {
+  location.href='class.html'
+}function sit() {
+  location.href='sit.html'
+}function newsit() {
+  location.href='newseat.html'
+}
+function apa1() {
+    text = "You bump into someone who is 'in character', he is starting to breathe heavy, what will you do?"
+    let content = document.getElementById('contentdiv')
+    let brStr = brs(5);
+    content.innerHTML = (brStr + text + brStr);
 }
 //APA END//
 //MAGNET START//
-function magnet() {
-  let content = document.getElementById('contentdiv')
-
+function robot() {
+  location.href='robot.html'
 }
+
+function auditorium() {
+  location.href='auditorium.html'
+}function tesla() {
+  location.href='tesla.html'
+}
+function magnet() {
+  location.href='magnet.html'
+}
+function magnet1() {
+    text = "You have been told to do one of three things, what will you do?"
+    let content = document.getElementById('contentdiv')
+    let brStr = brs(5);
+    content.innerHTML = (brStr + text + brStr);
+  }
+  function light(){
+    location.href='light.html'
+  }
+  function mclass(){
+    location.href='mclass.html'
+  }
 //MAGNET END//
 //UCTECH START//
 function uctech() {
@@ -40,6 +113,12 @@ function uctech1() {
 }
 function sustainable() {
   location.href='sustainable.html'
+}
+function sustainablel() {
+  let text = 'While sorting through the garbage in the cafeteria, you are suddenly bitten by a radioactive spider that turns you into a web-slinging crimestopper. What crime will you stop?'
+  let content = document.getElementById('contentdiv')
+  let brStr = brs(5);
+  content.innerHTML = (brStr + text + brStr);
 }
 function culinary() {
   location.href='culinary.html'
@@ -71,11 +150,20 @@ function lawandjustice1() {
 function jail() {
   location.href='jail.html'
 }
+function jail1() {
+  let text = 'You decide not to fight the case and accept your punishment. You are taken to a remote penitentiary in Colorado where you develop a friendship with famed Mexican drug lord Joaquin "El Chapo" Guzman, who teaches you how to correctly distribute brownies without getting caught. With this knowledge, you create a brownie empire that amasses you millions of dollars. How will you spend your final days?'
+  let content = document.getElementById('contentdiv')
+  let brStr = brs(5);
+  content.innerHTML = (brStr + text + brStr);
+}
 function court() {
   location.href='court.html'
 }
 function mugging() {
   location.href='mugging.html'
+}
+function robbery() {
+  location.href='robbery.html'
 }
 //UCTECH END//
 //AAHS BEGIN//
