@@ -44,8 +44,56 @@ function math1() {
   let brStr = brs(5);
   content.innerHTML = (brStr + text + brStr);
 }
+function sprint() {
+  location.href='sprint.html'
+}
+function sleep() {
+  location.href='sleep.html'
+}
 function english() {
   location.href='english.html'
+}
+function english1() {
+  text = "After spending some time reading Siddhartha, you become enlightened and gain the ability of flight. Where would you like to travel to?"
+  let content = document.getElementById('contentdiv')
+  let brStr = brs(5);
+  content.innerHTML = (brStr + text + brStr);
+}
+function home() {
+  location.href='home.html'
+}
+function cafeteria() {
+  location.href='cafeteria.html'
+}
+function cafeteria1() {
+  text = "You are horrified as you catch one of the lunch staff sacrificing a goat for today’s selection of meals. What will you do?"
+  let content = document.getElementById('contentdiv')
+  let brStr = brs(5);
+  content.innerHTML = (brStr + text + brStr);
+}
+function report() {
+  location.href='report.html'
+}
+function participate() {
+  location.href='participate.html'
+}
+function participate1() {
+  text = "Your work has been praised by the staff. You have been offered a job in the cafeteria. WIll you take it?"
+  let content = document.getElementById('contentdiv')
+  let brStr = brs(5);
+  content.innerHTML = (brStr + text + brStr);
+}
+function accept() {
+  location.href='accept.html'
+}
+function accept1() {
+  text = "Your work has been praised by the staff. You have been offered a job in the cafeteria. WIll you take it?"
+  let content = document.getElementById('contentdiv')
+  let brStr = brs(5);
+  content.innerHTML = (brStr + text + brStr);
+}
+function decline() {
+  location.href='decline.html'
 }
 //AIT END//
 //APA BEGIN//
